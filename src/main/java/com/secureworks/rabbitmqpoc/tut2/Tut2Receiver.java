@@ -14,7 +14,7 @@ public class Tut2Receiver {
     }
 
     @RabbitHandler
-    public void receive(String in) throws InterruptedException {
+        public void receive(String in) throws InterruptedException {
         StopWatch watch = new StopWatch();
         watch.start();
         System.out.println("instance " + this.instance +
