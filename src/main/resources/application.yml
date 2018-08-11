@@ -6,6 +6,9 @@ logging:
   level:
     org: error
 
+server:
+  port: 0
+
 tutorial:
   client:
     duration: 10000
